@@ -128,19 +128,34 @@ body{
 }
 
 .memorable img{
+	display: block;
 	margin: 50px auto 3px auto;
-	width: 100%;
+	width: 85%;
 }
 
 .memorable p{
+	display: block;
 	text-align: center;
 	font-weight: bold;
-	margin: 7px 0px 20px 0px;
+	margin: 7px 15px 20px 15px;
+}
+
+.memorable .comment{
+	font-weight: normal;
+	font-size: 17px;
+	margin-bottom: 0px;
 }
 
 .end{
 	text-align: center;
 	margin-top: 40px;
+}
+
+.memorable .pepe{
+	display: block;
+	width: 50%;
+	text-align: center;
+	margin: 5px auto 10px auto;
 }
 
 /*.cards{
