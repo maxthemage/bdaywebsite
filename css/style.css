@@ -2,12 +2,12 @@
     box-sizing: border-box;
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
 }
 
 body{
     margin: 0;
     padding: 0;
-    background-color: #303030;
 }
 
 .intro{
@@ -30,10 +30,12 @@ body{
     margin: 0px 0px 0px 75px;
 }
 
-.nav-header{
-    font-size: 70px;
+.nav-header{	
+    font-size: 50px;
     /*font-family: 'Nerko One', cursive;*/
     font-family: 'Dancing Script', cursive;
+    text-align: center;
+    padding: 0px auto 0px auto
 }
 
 .nav-img{
@@ -42,37 +44,21 @@ body{
     padding: 2px 7px 0px 10px;
 }
 
-.nav-links-one ul{
-    display: flex;
+.nav-links ul{
+    text-align: center;
+    padding: 0px auto 0px auto;
 }
 
-.nav-links-one li{
+.nav-links li{
     list-style: none;
-    padding: 0px 0px 0px 30px;
 }
 
-.nav-links-one li a{
+.nav-links li a{
     text-decoration: none;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 22px;
     font-family: 'Montserrat', sans-serif;
-}
-
-.nav-links-two ul{
-    display: flex;
-    padding: 0px 50px 0px 0px;
-}
-
-.nav-links-two li{
-    list-style: none;
-    padding: 0px 30px 0px 0px;
-}
-
-.nav-links-two li a{
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
 .first-h1{
@@ -104,6 +90,7 @@ body{
 
 .h3gif{
 	text-align: center;
+	padding-top: 50px;
 }
 
 .gif{
@@ -115,6 +102,37 @@ body{
 
 .ase-gif{
     padding: 0px 0px 0px 15px;
+}
+
+.cards_heading{
+	text-align: center;
+	padding-top: 25px;
+
+}
+
+.freaky{
+	text-align: center;
+}
+
+.freakyans{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.head3{
+	text-align: center;
+	padding-top: 75px;
+
+}
+
+.img1{
+	margin: 0px auto 20px auto;
+	width: 100%;
+}
+
+.end{
+	text-align: center;
+	margin-top: 40px;
 }
 
 /*.cards{
@@ -131,19 +149,30 @@ body{
 */
 @media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3){
 	*{
-		font-size: 18px;
+		font-size: 20px;
+	}
+	body{
+		background-image: url("hbd2.jpg")
 	}
 	.nav-header{
 		font-size: 45px;
+		text-align: center;
 	}
 	.cards{
 		display: grid;
 		grid-template-columns: repeat(1fr);
-		background-image: url("hbd2.jpg");		
+		background-image: url("hbd2.jpg");
+		text-align: center;		
 	}
 	.cards div img{
-    		width: 60%;
-    		padding: 20px auto 10px auto;
+    		width: 85%;
+		margin-bottom: 5px;
+    		padding: 20px auto 0px auto;
+	}
+	.cards div p{
+		text-align: center;
+		padding: 0px 20px 50px 20px;
+
 	}
 
 
