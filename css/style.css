@@ -134,6 +134,7 @@ body{
 }
 
 .memorable p{
+	font-size: 17px;
 	display: block;
 	text-align: center;
 	font-weight: bold;
@@ -144,7 +145,7 @@ body{
 	font-weight: normal;
 	font-size: 17px;
 	margin-bottom: 0px;
-}
+
 
 .end{
 	text-align: center;
