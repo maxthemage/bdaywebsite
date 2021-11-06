@@ -35,6 +35,7 @@ body{
     /*font-family: 'Nerko One', cursive;*/
     font-family: 'Dancing Script', cursive;
     text-align: center;
+    font-weight: bold;
     padding: 0px auto 0px auto
 }
 
@@ -119,15 +120,22 @@ body{
 	padding-bottom: 20px;
 }
 
-.head3{
+.memorable h2{
 	text-align: center;
-	padding-top: 75px;
+	margin: 100px auto 10px auto;
+	font-weight: bold;
 
 }
 
-.img1{
-	margin: 0px auto 20px auto;
+.memorable img{
+	margin: 50px auto 3px auto;
 	width: 100%;
+}
+
+.memorable p{
+	text-align: center;
+	font-weight: bold;
+	margin: 7px 0px 20px 0px;
 }
 
 .end{
@@ -149,7 +157,7 @@ body{
 */
 @media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3){
 	*{
-		font-size: 20px;
+		font-size: 19px;
 	}
 	body{
 		background-image: url("hbd2.jpg")
@@ -164,13 +172,18 @@ body{
 		background-image: url("hbd2.jpg");
 		text-align: center;		
 	}
+	.cards h2{
+		text-align: center;
+	}
 	.cards div img{
     		width: 85%;
 		margin-bottom: 5px;
     		padding: 20px auto 0px auto;
 	}
 	.cards div p{
+		font-size: 18px;
 		text-align: center;
+		font-weight: bold;
 		padding: 0px 20px 50px 20px;
 
 	}
